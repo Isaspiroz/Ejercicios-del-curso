@@ -11,11 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     actualizarContadorCarrito();
-
     //CATÁLOGO LOCAL//
-    const productContainer = document.getElementById('btn-comprar-ahora').addEventListener('click', () => {
-    btnProductos.click(); 
-});
+   const productContainer = document.getElementById('product-container');
+
+    const btnComprarAhora = document.getElementById('btn-comprar-ahora');
+    if (btnComprarAhora) {
+        btnComprarAhora.addEventListener('click', () => {
+            const secProductos = document.getElementById('section-productos');
+            if (secProductos) secProductos.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
     const misProductos = [
         {
             id: "1",
