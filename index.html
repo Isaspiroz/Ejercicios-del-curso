@@ -20,6 +20,26 @@
             <span id="cart-counter" style="color: #e74c3c; font-weight: bold; margin-left: 15px;">🛒 Carrito: (0)</span>
         </nav>
     </header>
+    <main class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <h2>Catálogo representativo, sino está lo que buscas te lo creamos!!!</h2>
+            <button id="btn-ver-carrito" class="btn" style="margin-top: 0;">📋 Ver mi pedido</button>
+        </div>
+        <div id="seccion-carrito" style="display: none; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 30px;">
+            <h3 style="color: #111827;">🛒 Detalle de tu Carrito</h3>
+            <div id="lista-carrito-detallada" style="margin: 20px 0; line-height: 2; color: #111827;">
+            </div>
+            <div style="background-color: #f0fdf4; border-left: 5px solid #10b981; padding: 15px; border-radius: 4px; margin-top: 15px; text-align: left;">
+                <p style="font-weight: bold; color: #111827; margin: 0;">ℹ️ Información de Pago:</p>
+                <p style="color: #374151; margin: 5px 0 0 0;">Aboná tu pedido por <strong>Mercado Pago</strong> y nos contactaremos de inmediato para coordinar la entrega de tus piezas 3D.</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <button id="btn-vaciar-carrito" class="btn" style="background-color: #e74c3c; margin-right: 10px; margin-top: 0;">Vaciar Carrito</button>
+                <button id="btn-finalizar-compra" class="btn" style="background-color: #10b981; margin-top: 0;">Confirmar Pedido</button>
+            </div>
+        </div>
+
+        <div id="product-container" class="product-grid">
 
     <main class="container">
         <section class="hero">
