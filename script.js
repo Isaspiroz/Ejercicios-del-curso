@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     actualizarContadorCarrito();
 
     //CATÁLOGO LOCAL//
-    const productContainer = document.getElementById("product-container");
-
+    const productContainer = document.getElementById('btn-comprar-ahora').addEventListener('click', () => {
+    btnProductos.click(); 
+});
     const misProductos = [
         {
             id: "1",
