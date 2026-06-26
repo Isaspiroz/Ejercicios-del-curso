@@ -1,4 +1,4 @@
-Proyecto final - Front-End JS 
+Proyecto final - Front-End JS   Isabel Aspiroz
 Talento Tech - com: 26125
 
 Nombre del Proyecto: Tienda online - Impresion 3D
